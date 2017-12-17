@@ -1,0 +1,94 @@
+.row h1{
+    width: 430px;
+    color: white;
+    background-color: #319de6;
+    text-align: center;
+    -webkit-transform: rotate(-90deg) translatey(-151px);
+    transform: rotate(-90deg) translatey(-180px) translatex(-15px);
+    height: 43px;
+    margin-top: 189px;
+}
+
+.slide-poster{
+    overflow: auto;
+    white-space: nowrap;
+    margin-left: 57px;
+    margin-top: -237px;
+    padding: 5px;
+}
+
+.movie-poster {
+    cursor: pointer;
+    width: 270px;
+    height: 400px;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: #827f7f 0px 0px 2px 0px, #808080a3 0px 0px 6px 1px;
+}
+
+.movie-poster > img {
+    width: 270px;
+    height: 400px;
+    border-radius: 5px;
+    vertical-align: top;
+}
+
+.movie-poster .info {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    background: linear-gradient(#f5f0f000, #8080802e, #0e0e0e);
+    border-radius: inherit;
+}
+
+.movie-poster .info b > h6{
+    font-weight: bold;
+    margin-top: 320px;
+}
+
+.other-movie{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.other-movie-poster{
+    cursor: pointer;
+    width: 170px;
+    height: 300px;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 5px;
+    padding:unset;
+    box-shadow: #827f7f 0px 0px 2px 0px, #808080a3 0px 0px 6px 1px;
+}
+
+.other-movie-poster > img {
+    width: 170px;
+    height: 300px;
+    border-radius: 5px;
+    vertical-align: top;
+}
+
+.other-movie-poster .info {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    background: linear-gradient(#ffffff00,#ffffff00, #80808000, #0e0e0e);
+    border-radius: inherit;
+}
+
+
+.other-movie-poster .info b > h6{
+    font-weight: bold;
+    margin-top: 250px;
+}

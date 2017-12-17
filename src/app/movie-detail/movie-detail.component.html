@@ -1,0 +1,33 @@
+<div class="row" >
+ <div class="col-sm-12 col-md-12 movie_banner" *ngIf = " movie.title != null">
+    <img [src] = "movie.bannerImage" [alt]="movie.title"/>
+ </div>
+</div>
+
+<div class="row detail-panel" *ngIf = " movie.title != null">
+  <div class="col-md-1"></div>
+  <div class="col-md-10">
+    <div class="row">
+        <div class="col-xs-3 col-sm-3 col-md-3 poster-image">
+            <img [src] = 'movie.posterImage' [alt]="movie.title"/>
+        </div>
+        <div class="col-xs-9 col-sm-9 col-md-9">
+            <h1>{{movie.title}}</h1>
+            <h4>
+              <span *ngFor = "let gener of movie.gener ">{{gener}} </span>
+            </h4> 
+            <h3>
+              <fa *ngFor="let s of ratingStars" [name]="s" style="color:white"></fa>
+            </h3>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <p> {{movie.description}}</p>
+        <p> <b>Directed By: </b>{{movie.director}}</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-1"></div>
+</div>
+

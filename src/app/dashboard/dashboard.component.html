@@ -1,0 +1,38 @@
+
+<div class = "row">
+  <h1>ON GOING</h1>
+  <div class="col-xs-11 slide-poster">
+    <div class = "movie-poster" *ngFor = "let m of latestMovies" (click) = "onMoviePosterClick(m.id)">
+      <img [src] = "m.posterImage" [alt]="m.title"/>
+      <div class="info">
+          <b>
+            <h6>{{m.title}}</h6>
+          </b>
+          <h6>
+            <span *ngFor = "let gener of m.gener ">{{gener}} </span>
+          </h6> 
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class = "row">
+  <div class="col-xs-12">
+    <h3> Other Movies</h3>
+  </div>  
+</div>
+<div class="row other-movie">
+  <div class = "col-xs-3 other-movie-poster" *ngFor = "let m of otherMovies" (click) = "onMoviePosterClick(m.id)">
+    <img [src] = "m.posterImage" [alt]="m.title"/>
+    <div class="info">
+      <b>
+        <h6>{{m.title}}</h6>
+      </b>
+      <h6>
+        <span *ngFor = "let gener of m.gener ">{{gener}} </span>
+      </h6> 
+    </div>
+  </div>
+</div>
+
+

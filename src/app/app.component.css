@@ -1,0 +1,21 @@
+.navbar-default {
+    background: linear-gradient(141deg, #5298E5 0%, #1fc8db 51%, #19D1AE 75%);
+    border-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+
+.container{
+    margin-top: 55px;
+}
