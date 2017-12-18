@@ -7,4 +7,6 @@
 5. When all the dependencies will the installed, rum `ng serve -o ` to run this app.
 6. Make sure that `port 4200` is available to use, if not the use `--port <custom-port-number>` for available port number.
 
+-- Please go through `Documentation.docx` for the application design and detail description.
+
 ## This application is test in over google chrome and the same is adviced to the user for best experience. 
